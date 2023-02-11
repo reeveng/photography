@@ -1,0 +1,1 @@
+const e="/photography/assets/pexels-j-mad-11578352-8ff2bfde.jpg";export{e as default};
