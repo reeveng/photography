@@ -36,7 +36,8 @@
   };
 </script>
 
-<h2 class="part">Collections</h2>
+<hr/>
+<h2 class="part collections">Collections</h2>
 <ul>
   {#each Object.entries(urls) as [collectionName, pictures]}
     <li>

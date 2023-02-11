@@ -13,8 +13,9 @@ main {
   padding: 5%;
 }
 
-.about {
-  padding: 3rem 0rem;
+.about,
+.collections {
+  padding: 2rem 0rem;
 }
 
 .part {
