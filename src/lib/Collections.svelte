@@ -11,7 +11,8 @@
   for (const modulePath in imageModules) {
     imageModules[modulePath]().then(({ default: imageUrl }) => {
       let urlParts = imageUrl.split("/");
-      let collectionName = urlParts[urlParts.length - 2];
+      let collectionName = urlParts[urlParts.length - 1];
+      collectionName = collectionName.split(".")[0]
 
       // if the collectionName isn't yet present in urls, create an empty array
       if (urls[collectionName] == undefined) {
