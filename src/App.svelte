@@ -33,7 +33,7 @@
       >
         <i class="fa-solid fa-link" />
         <span class="sr-only">
-          Link to pexels, a site where I you can find more of my photos
+          Link to my socials page, where there are several links through which you can stalk me
         </span>
       </a>
       <a
