@@ -39,7 +39,7 @@
 <hr/>
 <h2 class="part collections">Collect<span class="gold">ions</span></h2>
 <ul>
-  {#each Object.entries(urls) as [collectionName, pictures]}
+  {#each Object.entries(urls).sort(([a,],[b,])=>a.localeCompare(b)) as [collectionName, pictures]}
     <li>
       <button on:click={openNewSection(collectionName)}>
         {collectionName}
