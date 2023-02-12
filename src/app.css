@@ -112,3 +112,26 @@ ul {
 .gold {
   color: #ffd400;
 }
+
+.socials {
+  margin-top: 5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.socials a {
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.25s ease;
+}
+
+.socials a:hover {
+  color: #ffd400;
+}
