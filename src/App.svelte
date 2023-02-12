@@ -12,8 +12,10 @@
     />
   </div>
   <h1 class="part">
-    Perfect<br />
-    imperfections
+    <span>
+      <span class="gold">Per</span>fect<br />
+      imper<span class="gold">fect</span>ions
+    </span>
   </h1>
   <p class="part about">
     Some things aren't meant to be perfect, yet they are perfectly imperfect.

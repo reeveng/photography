@@ -37,7 +37,7 @@
 </script>
 
 <hr/>
-<h2 class="part collections">Collections</h2>
+<h2 class="part collections">Collect<span class="gold">ions</span></h2>
 <ul>
   {#each Object.entries(urls) as [collectionName, pictures]}
     <li>
