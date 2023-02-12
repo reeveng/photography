@@ -12,7 +12,7 @@
     imageModules[modulePath]().then(({ default: imageUrl }) => {
       let urlParts = imageUrl.split("/");
       let collectionName = urlParts[urlParts.length - 1];
-      collectionName = collectionName.split(".")[0]
+      collectionName = collectionName.split(".")[0];
 
       // if the collectionName isn't yet present in urls, create an empty array
       if (urls[collectionName] == undefined) {
@@ -36,10 +36,10 @@
   };
 </script>
 
-<hr/>
+<hr />
 <h2 class="part collections">Collect<span class="gold">ions</span></h2>
 <ul>
-  {#each Object.entries(urls).sort(([a,],[b,])=>a.localeCompare(b)) as [collectionName, pictures]}
+  {#each Object.entries(urls).sort( ([a], [b]) => a.localeCompare(b) ) as [collectionName, pictures]}
     <li>
       <button on:click={openNewSection(collectionName)}>
         {collectionName}
