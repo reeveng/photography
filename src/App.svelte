@@ -27,7 +27,7 @@
     <hr />
     <div class="links part">
       <a
-        href="https://www.pexels.com/@j-mad-65591688/"
+        href="https://reeveng.github.io/socials/"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
