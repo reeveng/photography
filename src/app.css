@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  padding: 5%;
+  padding-top: 5%;
 }
 
 .about,
@@ -22,7 +22,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0rem;
+  margin: 2.5rem 0rem;
 }
 
 .pfp {
