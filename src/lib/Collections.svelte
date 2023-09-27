@@ -39,7 +39,9 @@
 <hr />
 <h2 class="part collections">Collect<span class="gold">ions</span></h2>
 <ul>
-  {#each Object.entries(urls).sort( ([a], [b]) => a.localeCompare(b) ).reverse() as [collectionName, pictures]}
+  {#each Object.entries(urls)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .reverse() as [collectionName, pictures]}
     <li>
       <button on:click={openNewSection(collectionName)}>
         {collectionName}
@@ -49,7 +51,7 @@
         <ul>
           {#each pictures as picture}
             <li>
-              <img src={picture} alt="" />
+              <img src={picture} alt="" loading="lazy" />
             </li>
           {/each}
         </ul>
